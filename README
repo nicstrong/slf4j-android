@@ -2,19 +2,18 @@ SLF4J implementation for the Android Logcat facility.
 
 In your jars and apklibs add the following dependency:
 
-```
+
    <dependency>
      <groupId>org.slf4j</groupId>
      <artifactId>slf4j-api</artifactId>
      <version>1.6.1</version>
   </dependency>
-```
 
 
 Then in the Android app using the jars/apklibs that use slf4j add:
 
-  ```<dependency>
+  <dependency>
      <groupId>com.codepoets</groupId>
      <artifactId>slf4j-android</artifactId>
      <version>1.0</version>
-  </dependency>```
+  </dependency>
